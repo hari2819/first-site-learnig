@@ -14,7 +14,7 @@ for (let i = 0; i < navbarLinks.length; i++) {
   });
 }
 
-const searchTogglers = document.querySelector("[data-search-toggler]");
+const searchTogglers = document.querySelectorAll("[data-search-toggler]");
 const searchBox = document.querySelector("[data-search-box]");
 
 for (let i = 0; i < searchTogglers.length; i++) {
